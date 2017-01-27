@@ -1,0 +1,22 @@
+{
+  "name": "owl",
+  "authors": [
+    "Luan Santos <luansantos@crossknowledge.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "owl.carousel": "^2.2.0",
+    "jquery": "^3.1.1",
+    "bootstrap": "^3.3.7"
+  }
+}

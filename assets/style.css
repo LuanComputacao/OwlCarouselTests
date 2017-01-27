@@ -1,0 +1,24 @@
+.owl-carousel .item{
+	text-align: center;
+}
+
+.owl-carousel.links .owl-item{
+	text-align: center; 
+	background: rgba(122,122,122,0.5);
+}
+
+.owl-carousel.links{
+	margin-bottom: 20px;
+}
+.owl-carousel.content{
+	border: solid 1px #d3d3d3;
+}
+
+.owl-carousel .btn{
+	width: 100%
+}
+
+.link-carousel-prev, .link-carousel-next{
+	font-size: 26px;
+	text-align: center;
+}
