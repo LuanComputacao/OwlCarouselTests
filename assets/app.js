@@ -1,6 +1,7 @@
 $(document).ready(function(){
   var linksCarousel = $('.owl-carousel.links')
   var contentCarousel = $('.owl-carousel.content');
+  var internalCarousel = $('.owl-carousel.internal');
 
   linksCarousel.owlCarousel({
   	items:4,
@@ -27,6 +28,13 @@ $(document).ready(function(){
   	URLhashListener:true,
     autoplayHoverPause:true,
     startPosition: 'URLHash',
-    dots:false
+    dots:false,
+  	mouseDrag:false,
+  	touchDrag:false
   });
+
+
+  internalCarousel.owlCarousel({
+  });
+
 });
